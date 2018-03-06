@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  ofo-demo
+//
+//  Created by Comin Bril on 2018/3/6.
+//  Copyright © 2018年 Comin Bril. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#define LBXScan_Define_Native  //下载了native模块
+#define LBXScan_Define_ZXing   //下载了ZXing模块
+#define LBXScan_Define_ZBar   //下载了ZBar模块
+#define LBXScan_Define_UI     //下载了界面模块
+
+#endif
+
+
