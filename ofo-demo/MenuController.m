@@ -24,6 +24,8 @@
     
     _BalanceLabel.text = @"108.51元";
     _creditLabel.text = @"已认证";
+    self.view.backgroundColor = [UIColor whiteColor];
+    
 }
 
 - (void)didReceiveMemoryWarning {
