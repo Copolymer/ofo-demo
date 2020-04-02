@@ -20,6 +20,7 @@
 		2784B044204E50EC0063628B /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2784B043204E50EC0063628B /* ScanViewController.m */; };
 		2784B046204E51920063628B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2784B045204E51920063628B /* Default-568h@2x.png */; };
 		2784B04B204EA2F20063628B /* InputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2784B04A204EA2F20063628B /* InputViewController.m */; };
+		BF02B05A2436865600BDFB0C /* EmptyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BF02B0592436865600BDFB0C /* EmptyObject.m */; };
 		F379B03FE71A401924034AAB /* libPods-ofo-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BD39B0D6A2D0F2BB017854 /* libPods-ofo-demo.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,8 @@
 		54BD39B0D6A2D0F2BB017854 /* libPods-ofo-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ofo-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8281271E5EA295B50F100A55 /* Pods-ofo-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofo-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ofo-demo/Pods-ofo-demo.release.xcconfig"; sourceTree = "<group>"; };
 		B8A08C30DEAD34B9A34C1DEA /* Pods-ofo-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofo-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ofo-demo/Pods-ofo-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		BF02B0582436865600BDFB0C /* EmptyObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmptyObject.h; sourceTree = "<group>"; };
+		BF02B0592436865600BDFB0C /* EmptyObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				2784B030204DC00B0063628B /* WebViewController.m */,
 				2784B049204EA2F20063628B /* InputViewController.h */,
 				2784B04A204EA2F20063628B /* InputViewController.m */,
+				BF02B0582436865600BDFB0C /* EmptyObject.h */,
+				BF02B0592436865600BDFB0C /* EmptyObject.m */,
 				2784B021204DBED90063628B /* LaunchScreen.storyboard */,
 				2784B024204DBED90063628B /* Info.plist */,
 				2784B025204DBED90063628B /* main.m */,
@@ -259,6 +264,7 @@
 				2784B044204E50EC0063628B /* ScanViewController.m in Sources */,
 				2784B026204DBED90063628B /* main.m in Sources */,
 				2784B018204DBED90063628B /* AppDelegate.m in Sources */,
+				BF02B05A2436865600BDFB0C /* EmptyObject.m in Sources */,
 				2784B04B204EA2F20063628B /* InputViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
