@@ -9,5 +9,12 @@
 #import "EmptyObject.h"
 
 @implementation EmptyObject
-
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        NSLog(@"init");
+    }
+    return self;
+}
 @end
