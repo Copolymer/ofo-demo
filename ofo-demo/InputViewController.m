@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view.
     self.title = @"验证码输入VC";
     self.view.backgroundColor = [UIColor redColor];
+    self.view.userInteractionEnabled = NO;
 }
 
 - (void)didReceiveMemoryWarning {
